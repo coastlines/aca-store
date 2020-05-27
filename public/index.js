@@ -28,10 +28,12 @@ let productDiv= function(data) {
   div.classList.add("product");
   div.classList.add("flex-column");
   p.classList.add("flex-space-between");
+  p.classList.add("capitalize");
+  button.classList.add("capitalize");
 
   img.src = data.imgUrl;
-  p.innerHTML = `<strong>${name}</strong> $${data.price}`;
-  button.innerHTML = "Details";
+  p.innerHTML = `<strong>${name}</strong> <strong>$${data.price}</strong>`;
+  button.innerHTML = "details";
   
   div.appendChild(img);
   div.appendChild(p);

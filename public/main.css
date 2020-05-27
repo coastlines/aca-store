@@ -28,5 +28,9 @@ button {
   background-color: peru;
   color: papayawhip;
   padding: 8px 10px;
-  font-size: .7em;
+  font-size: .75em;
+}
+
+.capitalize {
+  text-transform: capitalize;
 }
