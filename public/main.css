@@ -13,6 +13,11 @@ body {
   padding: 20px 10px;
 }
 
+.flex-space-between {
+  display: flex;
+  justify-content: space-between;
+}
+
 img {
   width: 300px;
   max-width: 100%;
@@ -20,8 +25,8 @@ img {
 }
 
 button {
-  background-color: plum;
-  color: darkmagenta;
+  background-color: peru;
+  color: papayawhip;
   padding: 8px 10px;
   font-size: .7em;
 }

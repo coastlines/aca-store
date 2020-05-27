@@ -27,6 +27,8 @@ let productDiv= function(data) {
   section.classList.add("flex");
   div.classList.add("product");
   div.classList.add("flex-column");
+  p.classList.add("flex-space-between");
+
   img.src = data.imgUrl;
   p.innerHTML = `<strong>${name}</strong> $${data.price}`;
   button.innerHTML = "Details";
