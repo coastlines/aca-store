@@ -2,6 +2,7 @@ body {
   background-color: whitesmoke;
   font-family: Helvetica, Arial, sans-serif;
 }
+
 .flex {
   display: flex;
   justify-content: center;
@@ -17,6 +18,11 @@ body {
 .flex-space-between {
   display: flex;
   justify-content: space-between;
+}
+
+h1 {
+  width: 100%;
+  text-align: center;
 }
 
 img {
