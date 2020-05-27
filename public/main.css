@@ -1,0 +1,27 @@
+body {
+  background-color: peachpuff;
+}
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  flex-flow: wrap;
+}
+
+.flex-column {
+  flex-direction: column;
+  padding: 20px 10px;
+}
+
+img {
+  width: 300px;
+  max-width: 100%;
+  height: auto;
+}
+
+button {
+  background-color: plum;
+  color: darkmagenta;
+  padding: 8px 10px;
+  font-size: .7em;
+}
